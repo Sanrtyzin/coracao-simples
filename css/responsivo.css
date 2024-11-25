@@ -1,0 +1,72 @@
+@media (max-width: 800px) {
+    h1 {
+        font-size: 20px;
+    }
+    .heart {
+        margin: 150px;
+        background-color: red;
+        height: 150px;
+        transform: rotate(-45deg);
+        width: 150px;
+        position: relative;
+    }
+
+    .heart:before, .heart:after {
+        content: "";
+        background-color: red;
+        border-radius: 50%;
+        height: 150px;
+        position: absolute;
+        width: 150px;
+    }
+    
+    .heart:before {
+        top: -75px;
+    }
+    
+    .heart:after {
+        left: 75px;
+    }
+}
+
+@media (max-width: 615px) {
+    h1 {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 425px){
+    h1 {
+        font-size: 14px;
+    }
+
+    p {
+        font-size: 13px;
+    }
+
+    .heart {
+        margin: 125px;
+        background-color: red;
+        height: 125px;
+        transform: rotate(-45deg);
+        width: 125px;
+        position: relative;
+    }
+
+    .heart:before, .heart:after {
+        content: "";
+        background-color: red;
+        border-radius: 50%;
+        height: 125px;
+        position: absolute;
+        width: 125px;
+    }
+    
+    .heart:before {
+        top: -60px;
+    }
+    
+    .heart:after {
+        left: 60px;
+    }
+}
